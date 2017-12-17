@@ -1,0 +1,87 @@
+    .backdrop {
+        width: 100%;
+        height: 100%;
+        background: url(http://cloud.hunger-valley.com/17-9-22/87786461.jpg) center center no-repeat;
+        background-size: cover;
+        filter: blur(5px);
+        position: relative;
+    }
+
+    .box {
+        position: absolute;
+        left: 50%;
+        top: 40%;
+        transform: translate(-50%, -50%);
+        font-family: cursive;
+        font-size: 16px;
+        color: #f06d6a;
+        width: 340px;
+    }
+
+    .music-box {
+        border: 1px solid rgba(255, 255, 255, 0.8);
+        background-color: rgba(255, 255, 255, 0.9);
+        padding: 20px 20px 5px 20px;
+        text-align: center;
+        border-radius: 5px 5px 0 0;
+    }
+
+    .title {
+        font-size: 18px;
+    }
+
+    .singer {
+        font-size: 12px;
+    }
+
+    .btn i {
+        display: inline-block;
+        font-size: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        cursor: pointer;
+    }
+
+    .bar {
+        width: 260px;
+        height: 3px;
+        background-color: rgba(0, 0, 0, 0.2);
+        margin-top: 15px;
+        margin: 0 auto;
+        cursor: pointer;
+    }
+
+    .bar .Progress-bar {
+        height: 3px;
+        background-color: #ee8a87;
+        margin-top: 15px;
+        width: 0;
+    }
+
+    .time {
+        text-align: right;
+        margin-right: 15px;
+    }
+
+    .list li {
+        padding: 4px 10px;
+        border: 1px solid rgba(255, 255, 255, 0.8);
+        cursor: pointer;
+        position: relative;
+    }
+
+    .list li:hover {
+        background-color: rgba(255, 255, 255, 0.5);
+    }
+
+    .list > li.sign:before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        content: '';
+        width: 8px;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.8);
+    }
