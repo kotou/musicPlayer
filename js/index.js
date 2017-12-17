@@ -9,7 +9,7 @@
 
         function getMusicList(callback) {
             var xhr = new XMLHttpRequest()
-            xhr.open('GET', 'https://kotou.github.io/musicPlayer/music.json', true)
+            xhr.open('GET', '/musicjson/music.json', true)
             xhr.send()
             xhr.addEventListener('load', function () {
                 if ((xhr.status >= 200 && xhr.status < 300) || xhr.status === 304) {
